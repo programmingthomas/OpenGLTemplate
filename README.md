@@ -9,7 +9,7 @@ I've therefore created an adapted version of the template with a few extras and 
 * `@import` rather than `#import`
 * A `GLProgram` class that I use on my projects. This class simplifies the compilation of OpenGL shaders and makes it easy to access the indicies of attributes and uniforms
 * Model data is in structs in a separate header file
-* `BUFFER\_OFFSET_` macro isn't used - offsetof is instead
+* `BUFFER_OFFSET_` macro isn't used - `offsetof` is instead
 * Default is at 60fps and 4x anti-aliasing with depth testing and blending enabled
 * Status bar is hidden by default
 
